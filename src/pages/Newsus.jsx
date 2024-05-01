@@ -1,20 +1,20 @@
 import Contactus from "../components/Contactus"
 import Footer from "../components/Footer"
-import Internshipus from "../components/Internshipus"
 import Map from "../components/Map"
 import Navbar from "../components/Navbar"
 import Scrollup from "../components/Scrollup"
 import Whatsapp from "../components/Whatsapp"
+import News from "../components/News"
 
 
-function Internship() {
+function Newsus() {
   return (
     <main className='flex flex-col min-h-screen'>
     <Navbar />
     <div>
       <Scrollup />
       <Whatsapp />
-      <Internshipus />
+      <News />
       <Contactus />
       <Map />
     </div>
@@ -23,4 +23,4 @@ function Internship() {
   )
 }
 
-export default Internship
+export default Newsus

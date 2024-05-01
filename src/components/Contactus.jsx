@@ -2,7 +2,7 @@
 
 function Contactus() {
     return (
-        <div className='grid grid-cols-1  bg-gradient-to-tr from-black to-amber-800'>
+        <div className='grid grid-cols-1  bg-gradient-to-br from-black to-amber-800'>
             <div className="my-32 xl:my-36 2xl:my-52 mx-5 xl:mx-48 2xl:mx-52">
                 <div className="space-y-8 xl:space-y-24 2xl:space-y-36">
                     <div className="space-y-2 xl:space-y-4">

@@ -1,7 +1,7 @@
 
 function Map() {
     return (
-        <div className="grid grid-cols-1 bg-gradient-to-br from-black to-amber-800">
+        <div className="grid grid-cols-1 bg-gradient-to-tr from-black to-amber-800">
             <div className="my-16 xl:my-20 2xl:my-32 mx-10 xl:mx-48 2xl:mx-60">
                 <div className="px-10 lg:px-20 xl:px-20 2xl:px-32">
                     <div className='w-full mx-auto'>

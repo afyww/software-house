@@ -2,18 +2,15 @@
 
 function Serviceus() {
     return (
-        <div className='grid grid-cols-1 h-screen bg-gradient-to-br from-black to-amber-800'>
-            <div className="my-auto mx-5 xl:mx-24 2xl:mx-28">
-                <div className="space-y-5 xl:space-y-8 2xl:space-y-12">
-                    <div className="">
-                        <h1 className="text-2xl text-center xl:text-left xl:text-5xl 2xl:text-7xl text-white font-extrabold">Service Us</h1>
-                        <h1 className="text-2xl text-center xl:text-left xl:text-5xl 2xl:text-7xl text-yellow-300 font-extrabold">brand anda dengan kami</h1>
+        <div className='grid grid-cols-1 bg-gradient-to-tr from-black to-amber-800'>
+            <div className="my-64 xl:my-64 2xl:my-80">
+                <div className="xl:order-1 mx-5 xl:mx-32 order-2 space-y-5 xl:space-y-10 2xl:space-y-16">
+                    <div className="w-full">
+                        <h1 className="text-2xl text-center xl:text-left xl:text-6xl 2xl:text-7xl text-white  font-medium">Service Us</h1>
+                        <h1 className="text-2xl text-center xl:text-left xl:text-6xl 2xl:text-7xl text-amber-500  font-medium">Your Brand And</h1>
                     </div>
-                    <div className="">
+                    <div className="xl:w-full">
                         <p className="text-sm xl:text-base 2xl:text-lg text-center xl:text-left font-light text-white">Dipercaya para klien selama 9 tahun berkarya, kami siap membantu untuk membangun dan mengembangkan strategi bisnis anda</p>
-                    </div>
-                    <div className="p-2 mx-auto xl:mx-0 xl:p-4 hover:scale-110 hover:bg-gradient-to-l from-blue-400 to-blue-600 bg-gradient-to-r from-blue-400 to-blue-500 rounded-xl w-fit duration-200 delay-150">
-                        <a className="text-white text-center px-3 xl:p-6 text-base xl:text-xl font-bold" href="">Contact Us</a>
                     </div>
                 </div>
             </div>
