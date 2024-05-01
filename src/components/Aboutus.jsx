@@ -1,12 +1,12 @@
 
 function About() {
     return (
-        <div className='grid grid-cols-1 h-screen bg-black'>
+        <div className='grid grid-cols-1 h-screen bg-gradient-to-br from-black to-amber-800'>
             <div className="my-auto mx-5 xl:mx-24 2xl:mx-28">
                 <div className="space-y-5 xl:space-y-8 2xl:space-y-12">
                     <div className="">
-                        <h1 className="text-2xl text-center xl:text-left xl:text-5xl 2xl:text-7xl text-white font-extrabold">About Us</h1>
-                        <h1 className="text-2xl text-center xl:text-left xl:text-5xl 2xl:text-7xl text-yellow-300 font-extrabold">brand anda dengan kami</h1>
+                        <h1 className="text-2xl text-center xl:text-left xl:text-5xl 2xl:text-7xl text-white font-medium">About Us</h1>
+                        <h1 className="text-2xl text-center xl:text-left xl:text-5xl 2xl:text-7xl text-yellow-300 font-medium">brand anda dengan kami</h1>
                     </div>
                     <div className="">
                         <p className="text-sm xl:text-base 2xl:text-lg text-center xl:text-left font-light text-white">Dipercaya para klien selama 9 tahun berkarya, kami siap membantu untuk membangun dan mengembangkan strategi bisnis anda</p>

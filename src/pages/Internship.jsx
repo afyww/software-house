@@ -9,8 +9,8 @@ import Whatsapp from "../components/Whatsapp"
 
 function Internship() {
   return (
-    <main>
-      <Navbar />
+    <main className='flex flex-col min-h-screen'>
+    <Navbar />
     <div>
       <Scrollup />
       <Whatsapp />

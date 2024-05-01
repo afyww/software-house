@@ -6,10 +6,10 @@ import Navbar from '../components/Navbar'
 import Scrollup from '../components/Scrollup'
 import Whatsapp from '../components/Whatsapp'
 
-function About() {
+function Workus() {
   return (
-    <main>
-      <Navbar />
+    <main className='flex flex-col min-h-screen'>
+    <Navbar />
       <div>
         <Scrollup />
         <Whatsapp />
@@ -22,4 +22,4 @@ function About() {
   )
 }
 
-export default About
+export default Workus

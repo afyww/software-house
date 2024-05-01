@@ -4,9 +4,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const navLinks = [
     { title: 'Home', href: '/' },
-    { title: 'About Us', href: '/about' },
-    { title: 'Services', href: '/service' },
-    { title: 'Internship', href: '/internship' },
+    { title: 'Work Us', href: '/workus' },
+    { title: 'News', href: '/news' },
     { title: 'Contact Us', href: '/contact' }
 ];
 
@@ -105,11 +104,11 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="bg-black shadow-xl z-10 absolute top-0 right-0 left-0 p-4 xl:p-10">
+        <nav className="bg-transparent shadow-xl z-10 absolute top-0 right-0 left-0 p-4 xl:p-10">
             <div className="flex justify-between xl:mx-24">
                 <div>
                     <a href="/">
-                        <h1 className='text-white text-2xl xl:text-5xl font-semibold'>Sivi<span className='text-amber-400'>Naries</span></h1>
+                        <h1 className='text-white text-2xl xl:text-5xl font-semibold'>Sivi<span className='text-amber-500'>Naries</span></h1>
                     </a>
                 </div>
                 {isMobileView ? (
@@ -123,7 +122,7 @@ const Navbar = () => {
                 ) : (
                     <div className="hidden sm:flex gap-10 my-auto">
                         {navLinks.map((link, index) => (
-                            <a key={index} href={link.href} className={`text-white text-lg font-medium hover:scale-110 duration-200 delay-150 ${activePage && activePage.href === link.href ? 'border-b-4 border-amber-400' : ''}`}>
+                            <a key={index} href={link.href} className={`text-white text-lg font-semibold hover:scale-110 duration-200 delay-150 ${activePage && activePage.href === link.href ? 'border-b-4 border-amber-500' : ''}`}>
                                 {link.title}
                             </a>
                         ))}
@@ -152,7 +151,7 @@ const Navbar = () => {
                         >
                             <div className="flex flex-col gap-8 items-center justify-center h-full ">
                                 {navLinks.map((link, index) => (
-                                    <motion.span key={index} className={`text-gray-200 text-5xl font-medium ${activePage && activePage.href === link.href ? 'border-b-4 border-amber-400' : ''}`} variants={linkItemVariants} onClick={closeModal}>
+                                    <motion.span key={index} className={`text-gray-200 text-5xl font-semibold ${activePage && activePage.href === link.href ? 'border-b-4 border-amber-500' : ''}`} variants={linkItemVariants} onClick={closeModal}>
                                         <a href={link.href}>{link.title}</a>
                                     </motion.span>
                                 ))}

@@ -1,21 +1,21 @@
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
-import Motion from '../components/Motion'
 import Footer from '../components/Footer'
 import Map from '../components/Map'
 import Scrollup from '../components/Scrollup'
 import Whatsapp from '../components/Whatsapp'
 import Contactus from '../components/Contactus'
+import Slider from '../components/Runningtext'
 
 function Home() {
     return (
-        <main className='flex flex-col'>
+        <main className='flex flex-col min-h-screen'>
             <Navbar />
             <div className='w-full mx-auto'>
                 <Scrollup />
                 <Whatsapp />
                 <Hero />
-                <Motion />
+                <Slider />
                 <Contactus />
                 <Map />
             </div>

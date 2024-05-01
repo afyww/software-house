@@ -2,7 +2,7 @@
 
 function Internshipus() {
   return (
-    <div className='grid grid-cols-1 h-screen bg-black'>
+    <div className='grid grid-cols-1 h-screen bg-gradient-to-br from-black to-amber-800'>
             <div className="my-auto mx-5 xl:mx-24 2xl:mx-28">
         <div className="space-y-5 xl:space-y-8 2xl:space-y-12">
             <div className="">
