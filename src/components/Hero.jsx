@@ -27,7 +27,7 @@ function Hero() {
                         <h1 className="text-3xl text-center xl:text-left xl:text-6xl 2xl:text-7xl text-amber-500  font-semibold">Your Brand And</h1>
                         <h1 className="text-3xl text-center xl:text-left xl:text-6xl 2xl:text-7xl text-white font-semibold">Connect The World.</h1>
                     </div>
-                    <div className="xl:w-full">
+                    <div className="w-full">
                         <p className="text-sm xl:text-base 2xl:text-lg text-center xl:text-left font-light text-white">Dipercaya para klien selama 9 tahun berkarya, kami siap membantu untuk membangun dan mengembangkan strategi bisnis anda</p>
                     </div>
                     <div className='flex space-x-1 xl:space-x-5 mx-auto xl:mx-0 w-fit'>
