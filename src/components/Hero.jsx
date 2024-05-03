@@ -16,7 +16,7 @@ function Hero() {
     }, []);
 
     return (
-        <div className='grid grid-cols-1 h-screen bg-gradient-to-br from-black to-amber-800'>
+        <div className='grid grid-cols-1 h-screen bg-gradient-to-br from-black to-amber-600'>
             <div className="my-64 xl:my-64 2xl:my-80  xl:flex justify-between">
                 <div className='xl:w-fit h-fit xl:my-44 xl:order-2 order-1'>
                     <img className='img' src={logo} alt="" />

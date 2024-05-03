@@ -1,7 +1,7 @@
 
 function Aboutus() {
     return (
-        <div className='grid grid-cols-1 bg-gradient-to-br from-black to-amber-800'>
+        <div className='grid grid-cols-1 bg-gradient-to-br from-black to-amber-600'>
             <div className="my-44 xl:my-44 2xl:my-56">
                 <div className="mx-5 xl:mx-32 order-2 space-y-5 xl:space-y-10 2xl:space-y-16">
                     <div className="grid xl:grid-cols-2">
