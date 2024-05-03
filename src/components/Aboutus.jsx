@@ -5,17 +5,17 @@ function Aboutus() {
             <div className="my-44 xl:my-44 2xl:my-56">
                 <div className="mx-5 xl:mx-32 order-2 space-y-5 xl:space-y-10 2xl:space-y-16">
                     <div className="grid xl:grid-cols-2">
-                        <div className="space-y-12">
-                            <div className="border-b-2 border-amber-500">
-                                <h1 className="text-xl text-left xl:text-3xl 2xl:text-4xl text-white font-medium">About Us</h1>
+                        <div className="space-y-8">
+                            <div className="border-b-4 border-black">
+                                <h1 className="text-xl text-left xl:text-3xl 2xl:text-4xl text-white font-semibold">About Us</h1>
                             </div>
                             <div className="">
-                                <p className="text-4xl text-left xl:text-6xl 2xl:text-7xl text-white font-extrabold">Our Company History</p>
+                                <h1 className="text-3xl text-left xl:text-6xl 2xl:text-7xl text-white font-extrabold">Our <span className="text-amber-500">Company</span> History</h1>
                             </div>
                             <div className="w-full">
-                                <p className="text-sm xl:text-base 2xl:text-lg text-left font-light text-white">Dipercaya para klien selama 9 tahun berkarya, kami siap membantu untuk membangun dan mengembangkan strategi bisnis anda Dipercaya para klien selama 9 tahun berkarya, kami siap membantu untuk membangun dan mengembangkan strategi bisnis anda Dipercaya para klien selama 9 tahun berkarya, kami siap membantu untuk membangun dan mengembangkan strategi bisnis anda Dipercaya para klien selama 9 tahun berkarya</p>
+                                <p className="text-sm xl:text-base 2xl:text-lg text-left font-light text-white">Dipercaya para klien selama 9 tahun berkarya, kami siap membantu untuk membangun dan mengembangkan strategi bisnis anda Dipercaya para klien selama 9 tahun berkarya, kami siap membantu untuk membangun dan mengembangkan strategi bisnis anda Dipercaya para klien selama 9 tahun berkarya, kami siap membantu untuk membangun.</p>
                             </div>
-                            <div className="p-2 xl:p-4 2xl:p-6 hover:scale-110 bg-black rounded-xl w-fit duration-200 delay-150">
+                            <div className="p-2 xl:p-4 2xl:p-6 hover:scale-110 hover:bg-gradient-to-l from-amber-400 to-amber-600 bg-gradient-to-r from-amber-400 to-amber-500 rounded-xl w-fit duration-200 delay-150">
                                 <a className="text-white text-center px-3 xl:p-6 2xl:p-8 text-base xl:text-xl 2xl:text-2xl font-bold" href="/">Discover More</a>
                             </div>
                         </div>

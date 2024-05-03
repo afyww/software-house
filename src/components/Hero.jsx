@@ -23,9 +23,9 @@ function Hero() {
                 </div>
                 <div className="xl:order-1 mx-5 xl:mx-32 order-2 space-y-5 xl:space-y-10 2xl:space-y-16">
                     <div className="w-full">
-                        <h1 className="text-3xl text-center xl:text-left xl:text-6xl 2xl:text-7xl text-white  font-semibold">Digitalize</h1>
-                        <h1 className="text-3xl text-center xl:text-left xl:text-6xl 2xl:text-7xl text-amber-500  font-semibold">Your Brand And</h1>
-                        <h1 className="text-3xl text-center xl:text-left xl:text-6xl 2xl:text-7xl text-white font-semibold">Connect The World.</h1>
+                        <h1 className="text-3xl text-center xl:text-left xl:text-6xl 2xl:text-7xl text-white  font-extrabold">Digitalize</h1>
+                        <h1 className="text-3xl text-center xl:text-left xl:text-6xl 2xl:text-7xl text-amber-500  font-extrabold">Your Brand And</h1>
+                        <h1 className="text-3xl text-center xl:text-left xl:text-6xl 2xl:text-7xl text-white font-extrabold">Connect The World.</h1>
                     </div>
                     <div className="w-full">
                         <p className="text-sm xl:text-base 2xl:text-lg text-center xl:text-left font-light text-white">Dipercaya para klien selama 9 tahun berkarya, kami siap membantu untuk membangun dan mengembangkan strategi bisnis anda</p>
